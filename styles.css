@@ -37,9 +37,13 @@ h2{
     
 }
 
+/* .main-content p{
+    color: #535353;
+} */
+
 h1 + p{
 
-    color: #f18119;
+    color: #fff;
     font-weight: 900;
     font-size: 1.3125rem;
     margin: 0;
@@ -49,7 +53,7 @@ h1 + p{
 
 h2 + p{
 
-    color: #f18119;
+    color: #535353;
     font-weight: 900;
     font-size: 1rem;
     text-transform: uppercase;
@@ -60,12 +64,12 @@ h2 + p{
 
     font-size: 0.625rem;
     font-weight: 900;
-    color: #f18119;
+    color: #fff;
     text-transform: uppercase;
     order: -1;
-    border-top: 5px solid #f18119;
+    border-top: 5px solid #add6e7;
     padding-top: 2px;
-    border-image: linear-gradient(to right, #ff713b, #ffa51d) 1;
+    border-image: linear-gradient(to right, #add6e7, #b6a8f5) 1;
    
 }
 
@@ -84,7 +88,7 @@ h2 + p{
     background-size: cover;
     padding: 0 0.25em 2em;
     margin-top: 0;
-    background-color: #404040;
+    /* background-color: #404040; */
     display: flex;
     flex-direction: column;
     background-position: center;
@@ -97,6 +101,11 @@ h2 + p{
 
     padding: 2em 1em;
   
+}
+
+.main-content img{
+    width: 100px;
+    border-radius: 100%;
 }
 
 
@@ -124,7 +133,7 @@ input{
     transition: all 500ms;
     padding: .25em;
     transform:scale(1);
-    text-align: inherit;
+    /* text-align: inherit; */
     font-family: inherit;
     border: 1px solid rgb(131, 131, 131);
     
@@ -148,7 +157,7 @@ input:focus{
 
 
 .btn-primary{
-    background: linear-gradient(to left, #ff713b, #ffa51d);
+    background: linear-gradient(to left, #add6e7, #b6a8f5);
     color: #fff;
     transition: all 500ms;
     transform: scale(1);
@@ -156,7 +165,7 @@ input:focus{
 
 
 .btn-primary:hover, .btn-primary:focus{
-    background: linear-gradient(to right, #ff713b, #ffa51d);
+    background: linear-gradient(to right,#add6e7, #b6a8f5);
     color: black;
     transform: scale(1.1);
 }
